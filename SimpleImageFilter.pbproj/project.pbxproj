@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		0182AD9D001CB64C11CA0C5D = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0182AD9E001CB64C11CA0C5D = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//030
+//031
+//032
+//033
+//034
+		036354BFFEEE2C127F000001 = {
+			buildStyles = (
+				0182AD9D001CB64C11CA0C5D,
+				0182AD9E001CB64C11CA0C5D,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 036354C0FEEE2C127F000001;
+			productRefGroup = 036354C1FEEE2C127F000001;
+			projectDirPath = "";
+			targets = (
+				733BB37D049A8F4600C919A3,
+			);
+		};
+		036354C0FEEE2C127F000001 = {
+			children = (
+				036354CDFEEE2C127F000001,
+				036354C1FEEE2C127F000001,
+				036354C3FEEE2C127F000001,
+				036354C6FEEE2C127F000001,
+				036354CFFEEE2C127F000001,
+				733BB379049A8F0700C919A3,
+				733BB389049A8F4600C919A3,
+			);
+			isa = PBXGroup;
+			name = SimpleImageFilter;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354C1FEEE2C127F000001 = {
+			children = (
+				733BB38A049A8F4600C919A3,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354C3FEEE2C127F000001 = {
+			children = (
+				036354C4FEEE2C127F000001,
+				036354C5FEEE2C127F000001,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354C4FEEE2C127F000001 = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = iffToTiff.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354C5FEEE2C127F000001 = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SimpleImageFilter_main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354C6FEEE2C127F000001 = {
+			children = (
+				036354CEFEEE2C127F000001,
+			);
+			isa = PBXGroup;
+			name = "Supporting Files";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354CDFEEE2C127F000001 = {
+			expectedFileType = text.rtf;
+			isa = PBXFileReference;
+			path = README.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354CEFEEE2C127F000001 = {
+			expectedFileType = file;
+			isa = PBXFileReference;
+			path = SampleImage.iff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354CFFEEE2C127F000001 = {
+			children = (
+				036354D0FEEE2C127F000001,
+				036354D1FEEE2C127F000001,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		036354D0FEEE2C127F000001 = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		036354D1FEEE2C127F000001 = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//030
+//031
+//032
+//033
+//034
+//730
+//731
+//732
+//733
+//734
+		733BB379049A8F0700C919A3 = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Prefix.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		733BB37D049A8F4600C919A3 = {
+			buildPhases = (
+				733BB37E049A8F4600C919A3,
+				733BB380049A8F4600C919A3,
+				733BB381049A8F4600C919A3,
+				733BB384049A8F4600C919A3,
+				733BB387049A8F4600C919A3,
+			);
+			buildRules = (
+				734E636B049E6A1D00C919A3,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.h;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-SimpleImageFilter__Upgraded_.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleImageFilter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = SimpleImageFilter;
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Services";
+			productName = SimpleImageFilter;
+			productReference = 733BB38A049A8F4600C919A3;
+			productType = "com.apple.product-type.application";
+		};
+		733BB37E049A8F4600C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				733BB37F049A8F4600C919A3,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB37F049A8F4600C919A3 = {
+			fileRef = 733BB379049A8F0700C919A3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		733BB380049A8F4600C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB381049A8F4600C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				733BB382049A8F4600C919A3,
+				733BB383049A8F4600C919A3,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB382049A8F4600C919A3 = {
+			fileRef = 036354C4FEEE2C127F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		733BB383049A8F4600C919A3 = {
+			fileRef = 036354C5FEEE2C127F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		733BB384049A8F4600C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+				733BB385049A8F4600C919A3,
+				733BB386049A8F4600C919A3,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB385049A8F4600C919A3 = {
+			fileRef = 036354D0FEEE2C127F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		733BB386049A8F4600C919A3 = {
+			fileRef = 036354D1FEEE2C127F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		733BB387049A8F4600C919A3 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733BB389049A8F4600C919A3 = {
+			expectedFileType = text.plist;
+			isa = PBXFileReference;
+			path = "Info-SimpleImageFilter__Upgraded_.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		733BB38A049A8F4600C919A3 = {
+			expectedFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = SimpleImageFilter.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		734E636B049E6A1D00C919A3 = {
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			isa = PBXBuildRule;
+			outputFiles = (
+			);
+		};
+	};
+	rootObject = 036354BFFEEE2C127F000001;
+}
